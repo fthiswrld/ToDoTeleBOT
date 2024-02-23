@@ -9,7 +9,7 @@ import (
 func main() {
 	qwe := 0
 	usersCollection := db.ConnectDB()
-	botToken := "6328249486:AAG401acBcRinH0GzB8nRtJ98v7dZl7Tmlg"
+	botToken := ""
 	botApi := "https://api.telegram.org/bot"
 	botUrl := botApi + botToken
 	offset := 0
